@@ -1,0 +1,21 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: "import java.util.Scanner;\n\npublic class Main {\n    public static void\
+    \ main(String[] args) {\n\n        Scanner scanner = new Scanner(System.in);\n\
+    \        String input = scanner.nextLine();\n\n        //TODO: \n        // 1.\
+    \ Define a method safeToString(Object obj)\n        // 2. This method should try\
+    \ to convert obj to String\n        // 3. In case a null value is found, the method\
+    \ should return a \"null\" String\n        // 4. Use the ternary operator '?'\
+    \ to implement this condition in just one line\n        // 5. Call safeToString(...)\
+    \ with the input and store the result\n        // 6. Print the result\n\n    \
+    \    scanner.close();\n    }\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/43842#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 19 Mar 2024 10:19:20 UTC"
+record: -1
+submission_language: java17
